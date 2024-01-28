@@ -1,0 +1,27 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px; /* Ограничиваем ширину блока */
+}
+
+.list {
+    overflow-y: auto; /* Добавляем вертикальную прокрутку */
+    max-height: 200px; /* Ограничиваем высоту блока */
+}
+
+.elem {
+    margin-bottom: 10px;
+}
+
+.elem img {
+    max-width: 100%;
+    height: auto;
+}
