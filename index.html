@@ -3,35 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый веб-сайт</title>
+    <title>Выбор точки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        .block {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 
-    <header>
-        <h1>Добро пожаловать на мой сайт!</h1>
-    </header>
+    <div class="container">
 
-    <nav>
-        <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Контакты</a></li>
-        </ul>
-    </nav>
+        <div class="block">
+            <h2>Выбор точки</h2>
 
-    <section>
-        <h2>О нас</h2>
-        <p>Мы - небольшая компания, занимающаяся созданием веб-сайтов.</p>
-    </section>
+            <p>Выберите точку на карте:</p>
 
-    <section>
-        <h2>Контакты</h2>
-        <p>Свяжитесь с нами по адресу: example@example.com</p>
-    </section>
+            <ul>
+                <li><img src="point1.png" alt="Точка 1"> Точка 1</li>
+                <li><img src="point2.png" alt="Точка 2"> Точка 2</li>
+                <li><img src="point3.png" alt="Точка 3"> Точка 3</li>
+            </ul>
 
-    <footer>
-        <p>&copy; 2024 Мой первый веб-сайт</p>
-    </footer>
+            <p>Выберите дополнительные параметры:</p>
+
+            <label>
+                <input type="checkbox" name="option1"> 
+                <img src="checkbox1.png" alt="Checkbox 1"> Опция 1
+            </label>
+
+            <label>
+                <input type="checkbox" name="option2"> 
+                <img src="checkbox2.png" alt="Checkbox 2"> Опция 2
+            </label>
+
+            <label>
+                <input type="checkbox" name="option3"> 
+                <img src="checkbox3.png" alt="Checkbox 3"> Опция 3
+            </label>
+
+            <p><button>Выбрать точку</button></p>
+        </div>
+
+    </div>
 
 </body>
 </html>
