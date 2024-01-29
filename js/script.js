@@ -12,13 +12,14 @@ radioButtons.forEach(function (radioButton) {
   radioButton.addEventListener("change", function () {
     
     if (this.checked) {
-      
-      
-      if (this.value != "undefined") {
+
         tg.MainButton.show();
-      }
+
+    //   if (this.value != "undefined") {
+    //     tg.MainButton.show();
+    //   }
     }
   });
 });
 
-tg.MainButton.show();
+
