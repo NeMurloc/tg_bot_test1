@@ -6,9 +6,8 @@ body {
 }
 
 .block {
-    border: 1px solid #ccc;
     padding: 20px;
-    margin: 20px auto;
+    margin: 20px;
     max-width: 600px; /* Ограничиваем ширину блока */
 }
 
@@ -18,10 +17,11 @@ body {
 }
 
 .elem {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    
 }
 
 .elem img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
