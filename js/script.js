@@ -4,7 +4,7 @@ tg.expand();
 
 tg.MainButton.textColor = "#FFFFFF";
 tg.MainButton.color = "#50A0FF";
-tg.MainButton.text = "Выбрать точку";
+// tg.MainButton.text = "Выбрать точку";
 
 
 
@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     radioButton.addEventListener("change", function () {
       if (this.checked) {
-          tg.MainButton.show();
-          tg.MainButton.text = "Вы выбрали " + this.value;
+        tg.MainButton.text = "Вы выбрали " + this.value;  
+        tg.MainButton.show();
+          
       }
     });
   });
