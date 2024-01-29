@@ -26,6 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-if (!tg.isClosingConfirmationEnabled) {
-    tg.enableClosingConfirmation();
-}
+
+tg.enableClosingConfirmation();
