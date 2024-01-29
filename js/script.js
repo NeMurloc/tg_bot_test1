@@ -10,8 +10,13 @@ var radioButtons = document.querySelectorAll('input[type="radio"][name="address"
 
 radioButtons.forEach(function (radioButton) {
   radioButton.addEventListener("change", function () {
+    
     if (this.checked) {
+      
+      
+      if (this.value != "undefined") {
         tg.MainButton.show();
+      }
     }
   });
 });
