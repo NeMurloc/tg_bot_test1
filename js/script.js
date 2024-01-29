@@ -13,7 +13,7 @@ radioButtons.forEach(function (radioButton) {
     
     if (this.checked) {
 
-        tg.MainButton.show();
+
 
       if (this.value != "undefined") {
         tg.MainButton.show();
