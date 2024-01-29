@@ -6,9 +6,10 @@ tg.MainButton.textColor = "#FFFFFF";
 tg.MainButton.color = "#50A0FF";
 tg.MainButton.text = "Выбрать точку";
 
+enableClosingConfirmation();
+
 
 document.addEventListener("DOMContentLoaded", function () {
-
     var radioButtons = document.querySelectorAll('input[type="radio"][name="address"]');
     
     radioButtons.forEach(function (radioButton) {
@@ -16,10 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     radioButton.addEventListener("change", function () {
       if (this.checked) {
           tg.MainButton.show();
-        //   if (this.value !== "undefined") {
-        //     tg.MainButton.show();
-        //   }
       }
     });
   });
 });
+
+
