@@ -16,7 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     radioButton.addEventListener("change", function () {
       if (this.checked) {
-          tg.MainButton.show();
+          if (this.value !== "undefined") {
+              tg.MainButton.show();
+          }
+          
       }
     });
   });
