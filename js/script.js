@@ -12,10 +12,8 @@ radioButtons.forEach(function (radioButton) {
   radioButton.addEventListener("change", function () {
     
     if (this.checked) {
-
-      if (this.value == "address1") {
         tg.MainButton.show();
-      }
+      
     }
   });
 });
