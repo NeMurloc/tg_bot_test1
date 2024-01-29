@@ -1,27 +1,38 @@
 /* style.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Montserrat; /* Montserrat у меня не отобрашается */
     margin: 0;
 }
 
 .block {
-    
+    margin: 10px;
     
     max-width: 400px; 
 }
 
 .list {
     overflow-y: auto; /* Добавляем вертикальную прокрутку */
-    max-height: 200px; /* Ограничиваем высоту блока */
+    max-height: 300px; /* Ограничиваем высоту блока */
 }
 
 .elem {
-    margin-bottom: 20px;
-    
+    /* margin-bottom: 20px; */ /* Ни на что не влияет, так как я использую h4 под каждой фоткой */
 }
 
 .elem img {
     width: 100%;
     height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: #50A0FF;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
