@@ -15,9 +15,9 @@ radioButtons.forEach(function (radioButton) {
 
         tg.MainButton.show();
 
-    //   if (this.value != "undefined") {
-    //     tg.MainButton.show();
-    //   }
+      if (this.value != "undefined") {
+        tg.MainButton.show();
+      }
     }
   });
 });
