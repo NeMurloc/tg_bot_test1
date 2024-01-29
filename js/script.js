@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     radioButton.addEventListener("change", function () {
       if (this.checked) {
           tg.MainButton.show();
-          
+          tg.MainButton.text = "Вы выбрали " + this.value;
       }
     });
   });
