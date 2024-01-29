@@ -6,8 +6,9 @@ body {
 }
 
 .block {
-
-    max-width: 600px; /* Ограничиваем ширину блока */
+    
+    
+    max-width: 400px; 
 }
 
 .list {
